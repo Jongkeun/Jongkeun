@@ -1,2 +1,2 @@
 # Jongkeun
-Jongkeun's first repository.
+Jongkeun's study History.
