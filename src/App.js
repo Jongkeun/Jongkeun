@@ -1,21 +1,20 @@
 import React from "react";
+import Typer from "./components/Typer";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyle />
+      <header></header>
+      <Typer
+        heading={"Things I want to type:"}
+        dataText={[
+          "WELCOME TO MY WORLD",
+          "THIS IS MY WEBSITE",
+          "I LIKE FRONTEND PROGRAMMING",
+        ]}
+      />
     </div>
   );
 }
