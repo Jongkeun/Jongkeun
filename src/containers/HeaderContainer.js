@@ -3,21 +3,22 @@ import styled from "styled-components";
 import BurgerMenu from "../components/BurgerMenu";
 import HomeLink from "../components/HomeLink";
 
-const HeaderContainer = styled.header`
+const Header = styled.header`
   display: flex;
+  justify-content: space-between;
 `;
 const Name = styled.h3`
   color: white;
 `;
-const Header = () => {
+const HeaderContainer = () => {
   return (
-    <HeaderContainer>
+    <Header>
       <HomeLink>
         <Name>Jongkeun</Name>
       </HomeLink>
       <BurgerMenu />
-    </HeaderContainer>
+    </Header>
   );
 };
 
-export default Header;
+export default HeaderContainer;
