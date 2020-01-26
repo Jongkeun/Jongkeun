@@ -1,8 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import "./Typer.css";
+import "./TypingContainer.css";
 
-class Typer extends React.Component {
+const ContainerDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+`;
+
+class TypingContainer extends React.Component {
   static defaultProps = {
     heading: "",
     dataText: [],
@@ -50,13 +56,15 @@ class Typer extends React.Component {
 
   render() {
     return (
-      <h1>
-        {this.props.heading}&nbsp;
-        <span>{this.state.text}</span>
-        <span id="cursor" />
-      </h1>
+      <ContainerDiv>
+        <h1>
+          {this.props.heading}&nbsp;
+          <span>{this.state.text}</span>
+          <span id="cursor" />
+        </h1>
+      </ContainerDiv>
     );
   }
 }
 
-export default Typer;
+export default TypingContainer;
