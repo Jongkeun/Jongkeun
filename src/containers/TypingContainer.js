@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import "./TypingContainer.css";
+import HomeLink from "../components/HomeLink";
 
 const ContainerDiv = styled.div`
   display: flex;
