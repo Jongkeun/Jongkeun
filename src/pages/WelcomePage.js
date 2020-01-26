@@ -1,11 +1,11 @@
 import React from "react";
 import TypingContainer from "../containers/TypingContainer";
-import Header from "../containers/Header";
+import HeaderContainer from "../containers/HeaderContainer";
 
 const WelcomePage = () => {
   return (
     <>
-      <Header />
+      <HeaderContainer />
       <TypingContainer
         heading={"Things I want to type:"}
         dataText={[
