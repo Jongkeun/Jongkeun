@@ -46,7 +46,7 @@ const StyledBurger = styled.button`
 `;
 
 const StyledMenu = styled.nav`
-  display: flex;
+  display: ${({ open }) => (open ? "flex" : "none")};
   flex-direction: column;
   justify-content: center;
   background: #effffa;
