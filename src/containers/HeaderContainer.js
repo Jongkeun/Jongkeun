@@ -14,7 +14,7 @@ const HeaderContainer = () => {
   return (
     <Header>
       <HomeLink>
-        <Name>Jongkeun</Name>
+        <Name>JONGKEUN</Name>
       </HomeLink>
       <BurgerMenu />
     </Header>
