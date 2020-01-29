@@ -6,14 +6,7 @@ const WelcomePage = () => {
   return (
     <>
       <HeaderContainer />
-      <TypingContainer
-        heading={"Things I want to type:"}
-        dataText={[
-          "WELCOME TO MY WORLD",
-          "THIS IS MY WEBSITE",
-          "I LIKE FRONTEND PROGRAMMING",
-        ]}
-      />
+      <TypingContainer />
     </>
   );
 };

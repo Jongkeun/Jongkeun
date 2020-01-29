@@ -10,7 +10,7 @@ const Router = () => {
         <WelcomePage />
       </Route>
       <Route path="/about">
-        <About></About>
+        <About />
       </Route>
     </HashRouter>
   );
