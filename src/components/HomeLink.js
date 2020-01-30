@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const HomeLink = ({ children }) => {
-  return <Link to="/">{children}</Link>;
+const HomeLink = props => {
+  return (
+    <Link to="/" {...props}>
+      {props.children}
+    </Link>
+  );
 };
 
 export default HomeLink;

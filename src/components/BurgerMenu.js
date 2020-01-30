@@ -84,14 +84,14 @@ const StyledMenu = styled.nav`
   }
 `;
 
-const Menu = ({ open }) => {
+const Menu = ({ open, setOpen }) => {
   return (
     <StyledMenu open={open}>
-      <AboutLink>
+      <AboutLink onClick={() => setOpen(!open)}>
         <span role="img" aria-label="about us">
           💁🏻‍♂️
         </span>
-        About us
+        About Me
       </AboutLink>
       <a href="/">
         <span role="img" aria-label="price">
