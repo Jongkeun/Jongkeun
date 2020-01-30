@@ -1,14 +1,8 @@
 import React from "react";
 import TypingContainer from "../containers/TypingContainer";
-import HeaderContainer from "../containers/HeaderContainer";
 
 const WelcomePage = () => {
-  return (
-    <>
-      <HeaderContainer />
-      <TypingContainer />
-    </>
-  );
+  return <TypingContainer />;
 };
 
 export default WelcomePage;
