@@ -9,6 +9,8 @@ const Header = styled.header`
 `;
 const Name = styled.h3`
   color: white;
+  @import url("https://fonts.googleapis.com/css?family=Do+Hyeon");
+  font-family: "Do Hyeon", sans-serif;
 `;
 const HeaderContainer = () => {
   return (
