@@ -5,7 +5,7 @@ class TypingContainer extends React.Component {
   render() {
     return (
       <Typing
-        heading={"Things I want to type:"}
+        heading={"JONGKEUN:~$"}
         dataText={[
           "WELCOME TO MY WORLD",
           "THIS IS MY WEBSITE",
