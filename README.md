@@ -1,4 +1,3 @@
 # Jongkeun
-Jongkeun's study History.
+Jongkeun's History.
 
-- C++
