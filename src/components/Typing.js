@@ -20,6 +20,7 @@ const Cursor = styled.span`
 `;
 const H1 = styled.h1`
   color: #00ff41;
+  font-size: 2rem;
 `;
 
 const Typing = ({ heading, dataText }) => {
@@ -34,7 +35,7 @@ const Typing = ({ heading, dataText }) => {
     setText(
       isDeleting
         ? fullText.substring(0, text.length - 1)
-        : fullText.substring(0, text.length + 1)
+        : fullText.substring(0, text.length + 1),
     );
     setTypingSpeed(isDeleting ? 30 : 150);
 
