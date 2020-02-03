@@ -48,7 +48,10 @@ const Typing = ({ heading, dataText }) => {
   };
 
   useEffect(() => {
-    setTimeout(handleType, typingSpeed);
+    const type = setTimeout(handleType, typingSpeed);
+    return function cleanuo() {
+      clearTimeout(type);
+    };
     // eslint-disable-next-line
   }, [text, isDeleting]);
 
