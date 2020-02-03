@@ -11,8 +11,8 @@ const ArrowDiv = styled.div`
   bottom: 0;
   cursor: pointer;
 `;
-const ArrowButton = () => {
-  return <ArrowDiv>{"<"}</ArrowDiv>;
+const ArrowButton = props => {
+  return <ArrowDiv {...props}>{"<"}</ArrowDiv>;
 };
 
 export default ArrowButton;

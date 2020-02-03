@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { useHistory } from "react-router-dom";
 import TypingContainer from "../containers/TypingContainer";
 import ArrowButton from "../components/ArrowButton";
 
 const Section = styled.section`
   display: block;
-  height: 100vh;
+  height: 80vh;
 `;
 
 const Bottom = styled.div`
@@ -15,11 +16,12 @@ const Bottom = styled.div`
   margin-left: -10px;
 `;
 const WelcomePage = () => {
+  const history = useHistory();
   return (
     <Section>
       <TypingContainer />
       <Bottom>
-        <ArrowButton />
+        <ArrowButton onClick={() => history.push("/about")} />
       </Bottom>
     </Section>
   );
