@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import TypingContainer from "../containers/TypingContainer";
+import HeaderContainer from "../containers/HeaderContainer";
 import ArrowButton from "../components/ArrowButton";
 
 const Section = styled.section`
-  display: block;
   height: 80vh;
 `;
 
@@ -19,6 +19,7 @@ const WelcomePage = () => {
   const history = useHistory();
   return (
     <Section>
+      <HeaderContainer />
       <TypingContainer />
       <Bottom>
         <ArrowButton onClick={() => history.push("/about")} />
