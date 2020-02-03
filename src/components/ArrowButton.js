@@ -9,6 +9,7 @@ const ArrowDiv = styled.div`
   background-color: transparent;
   transform: translate(-50%, -50%) rotate(-90deg);
   bottom: 0;
+  cursor: pointer;
 `;
 const ArrowButton = () => {
   return <ArrowDiv>{"<"}</ArrowDiv>;
