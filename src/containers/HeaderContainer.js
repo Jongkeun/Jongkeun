@@ -6,6 +6,7 @@ import HomeLink from "../components/HomeLink";
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
+  height: 10vh;
 `;
 const Name = styled.h3`
   color: white;
