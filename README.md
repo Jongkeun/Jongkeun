@@ -28,3 +28,4 @@
 - Proptypes
 - Context
 - Router
+- polyfill (Support IE)
