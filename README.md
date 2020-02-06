@@ -19,12 +19,13 @@
 - testing
 - webpack, babel
 - styled-component
-- redux, mobx
+- redux, mobx, context
 - hooks
 - graphql
 - page layout (making many cases according to situation)
 - svg
-- server-side-rendering
+- server-side-rendering (ReactDOMServer), Next.js, deploy with `now`
+- code-splitting
 - Proptypes
 - Context
 - Router
