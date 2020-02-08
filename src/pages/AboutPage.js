@@ -1,13 +1,8 @@
 import React from "react";
-import HeaderContainer from "../containers/HeaderContainer";
+import LayoutContainer from "../containers/LayoutContainer";
 
 const AboutPage = () => {
-  return (
-    <div>
-      <HeaderContainer />
-      About
-    </div>
-  );
+  return <LayoutContainer>About</LayoutContainer>;
 };
 
 export default AboutPage;

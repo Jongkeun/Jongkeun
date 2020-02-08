@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import BurgerMenu from "../components/BurgerMenu";
-import HomeLink from "../components/HomeLink";
+import BurgerMenu from "./BurgerMenu";
+import HomeLink from "./HomeLink";
 
-const Header = styled.header`
+const Conatiner = styled.header`
   display: flex;
   justify-content: space-between;
   height: 10vh;
@@ -13,15 +13,15 @@ const Name = styled.h3`
   @import url("https://fonts.googleapis.com/css?family=Do+Hyeon");
   font-family: "Do Hyeon", sans-serif;
 `;
-const HeaderContainer = () => {
+const Header = () => {
   return (
-    <Header>
+    <Conatiner>
       <HomeLink>
         <Name>JONGKEUN</Name>
       </HomeLink>
       <BurgerMenu />
-    </Header>
+    </Conatiner>
   );
 };
 
-export default HeaderContainer;
+export default Header;
