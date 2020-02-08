@@ -24,6 +24,11 @@ const Heading = styled.h1`
   font-weight: 400;
   letter-spacing: 0;
   line-height: 110px;
+  margin: auto;
+  @media screen and (max-width: 800px) {
+    font-size: 5em;
+    line-height: 1em;
+  }
 `;
 
 const WelcomePage = () => {
