@@ -13,7 +13,7 @@ const Bottom = styled.div`
 const WelcomePage = () => {
   const history = useHistory();
   return (
-    <LayoutContainer>
+    <LayoutContainer welcome>
       <Bottom>
         <ArrowButton onClick={() => history.push("/about")} />
       </Bottom>
