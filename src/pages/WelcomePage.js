@@ -6,7 +6,7 @@ import LayoutContainer from "../containers/LayoutContainer";
 
 const Bottom = styled.div`
   position: absolute;
-  bottom: 10vh;
+  bottom: 5vh;
   left: 50%;
   margin-left: -10px;
 `;
