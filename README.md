@@ -30,3 +30,4 @@
 - Context
 - Router
 - polyfill (Support IE)
+- React Suspense
