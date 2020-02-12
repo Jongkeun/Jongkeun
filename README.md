@@ -2,15 +2,15 @@
 
 ### What I'm doing now
 
-- [ ] todo-list (React)
+> portfolio (React)
 
 ### Plans what I will do
 
-- [ ] [todo-list](https://github.com/Jongkeun/ToDoList-react) (React, Context, styled-component)
-- [ ] todo-list (React, Typescript)
-- [ ] todo-list (Svelt)
+- [x] [todo-list](https://github.com/Jongkeun/todo-list-react) (React)
+- [ ] todo-list (Typescript)
+- [x] [todo-list](https://github.com/Jongkeun/todo-list-svelte) (Svelt)
 - [ ] portfolio (React)
-- [ ] mihwanta (React, Typescript, Graphql)
+- [ ] mihwanta (Svelt, Typescript, Graphql)
 
 ---
 
@@ -24,10 +24,9 @@
 - graphql
 - page layout (making many cases according to situation)
 - svg
-- server-side-rendering (ReactDOMServer), Next.js, deploy with `now`
+- server-side-rendering (ReactDOMServer), **Next.js**, deploy with `now`
 - code-splitting
 - Proptypes
 - Context
 - Router
 - polyfill (Support IE)
-- React Suspense
